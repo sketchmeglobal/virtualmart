@@ -1,0 +1,159 @@
+CA E-commerce Project:
+
+
+
+avihpsam@gmail.com
+
+
+
+### Default Login Username & password ###
+
+1. Admin login 
+
+-> username: 9090909090
+
+-> password: 123456
+
+
+
+2. User Login
+
+-> username: 9330887842
+
+-> password: 123456
+
+
+
+
+
+###order id generator
+
+
+
+1. user id = first 5 digit (0->5)
+
+2. consultant id (referral id). = second 5 digit (6->10)
+
+3. order id = last insert order_hdr_id = rest of the order primary id
+
+
+
+eg: OD0004754295002154
+
+->OD is: Order ID
+
+->user id is: 00047
+
+->consultant id is: 54295
+
+->order id is: 002154
+
+
+
+
+
+### order status
+
+tbl_order_hdr
+
+
+
+0=pending, 1=order_placed, 2=order_delivered, 3=order_cancelled
+
+
+
+
+
+###
+
+
+
+
+
+
+
+Timing:
+
+1. Website UI Conversation with Fresh Pages Create, Website Content Changes => 1 - 2 Day
+
+2. User Registration/ Login, Consultant Request/ Login  => 1 day
+
+3. Product category adding, product adding => 1 - 2 days
+
+4. Product listing in ui, add to cart => 1- 2 days
+
+5. wishlist system create => 1 day
+
+6. Checkout => 1 day
+
+7. order history => 1 day
+
+8. Consultant System => 1 - 2 days
+
+9. consultant history check => 1 day
+
+10. Extra Changes => 3-5 days
+
+
+
+
+
+-:Admin:-
+
+1. Website Content (About us, Privacy Policy, Term & Condition, Refund Policy, Home page banner)
+
+2. Parent Category with Icons
+
+3. Child Category with icons
+
+4. Product Add with User Id, Parent Category, Child Category, Multiple Images, Original Price, Selling Price, Description, Feature image, Status
+
+5. Users data show
+
+6. Order history
+
+7. Change Order Status
+
+8. Referral Comission Change
+
+9. Check Referral Products (Consultant)
+
+10. Consultant upload products, admin approved, then product show
+
+
+
+
+
+
+
+-:UI:-
+
+1. Website Content Dynamic 
+
+2. Login/ Register 
+
+3. Add to cart 
+
+4. Wishlist 
+
+5. Checkout 
+
+6. Payment (COD, Paid) 
+
+7. Order History 
+
+8. Product Listings show 
+
+9. Product Details Page 
+
+10. Wishlist page 
+
+11. Cart Page 
+
+12. Contact form 
+
+13. Invoice (Mail) 
+
+14. Menu bar dynamic Category wise
+
+15. Check Referral Product History

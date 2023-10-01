@@ -1,0 +1,76 @@
+Confirmation Phase
+
+---
+UI steps
+1. footer links configuration
+2. product details zooming gallery images
+3. product details page - header rating count
+4. Product details page - reviews
+5. Home page - product showcase - ratings count
+6. Product search page - price, rating 
+7. cart page - coupon code checking
+8. checkout page coupon code 
+9. customers account checking
+//need details
+10. Term & conditions
+11. Refund & Cancellations
+12. Privacy Policy
+13. Shipping Policy
+14. Social Media just links (account/profile) for display on the webiste
+15. Contact details display on the webiste. Mobile, Email, Address
+16. About us content
+17. CA E-Commerce FAQ
+---
+
+
+1. Vendors
+
+	Products Add, Edit, Stock Update - done
+	Orders checking, update shipping details, invoice details - done
+	Products ratings approved/delete
+	payout details - done
+	
+
+2. Admin
+	--
+	vendor product approve, update commission seller & supplier,  customer bonus discount, - done
+	view all vendors product, view vendor wise product -  done
+	view orders, edit details - done
+	--
+	vendors registration details, kyc - done
+	users registration details - done
+	consultant registration details - done
+	--
+	master section -> category, size, common group, default changes, coupon code,  - done. brands-  pending
+	--
+	withdrawal data -> consultant, vendors - done
+	--
+	website data-> home page slider, about us page, newsletter, - done
+	
+
+3. Users
+	view available bonus amt
+	order details - done
+	address changes - done
+	password changes - done
+
+4. Consultant
+	view all products - done
+	copy products link  - done
+	view referral purchased products - done
+	view commission amount history - show data - done
+	withdrawal data - done
+	kyc/ bank details - done
+	vendor referred - show list - done
+
+
+----
+Front-End Part
+order chekcout
+coupon code
+search
+
+---
+after account created, mas vendor -> go to dashbaord
+-> admin dashbaord -> new vendor registration color change
+-> if, vendor approved, thewn success msg show as green color

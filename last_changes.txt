@@ -1,0 +1,136 @@
+for backend --> 1. Promotion amount calculate from admin profit amount as percentage
+
+
+
+--> checkout two address required for one is billing address & another is delivery address
+--> order checkout add one more field for gst number
+
+
+order data table column::
+
+1. order intemation to vendor
+2. invoice generation status
+3. invoice number
+4. pickup status
+5. shipping agent name
+6. shipping reference number
+7. shipped status
+8. delivery status
+9. vendor payable staus
+10. vendor TXN ID {data = from bank with utr}
+11. consultant seller payable status
+12. Consultant Seller TXN ID {data = from bank name with utr}
+13. consultant supplier payable status
+14. Consultant Supplier TXN ID {data = from bank name with utr}
+15. shipping agent payable status
+16. shipping TXN ID {data = from bank name with utr}
+17. gateway sattlement status
+18. admin banking status with bank name
+19. gst payment status (customer paid amt.)
+20. gst challan Number
+21. customer gst number (optional)
+22. order final status -> for order return/ close/ replacement
+23. total collection amt.
+24. less charges collection amt.
+25. reverse amt.
+26. return charges amt.
+27. customer review
+
+--> after order closed, consultant amount & vendor amount will release.
+
+-----
+
+make two panel for orde return and replacement
+
+
+
+-----
+
+
+invoice details page:
+invoice details generated -> then users will show.
+1. company name with address & gst number
+2. change seller to vendor
+add line as `Invoice from` for title
+3. Vendor name, address, gst number, invoice number
+4. Invoice to -> customer billing details with customer gst number
+5. Shipping Agent platform name, agent name, shipping reference number
+6. Shipped to -> customer delivery details
+7. tax = (customer paid amount + shipping charges) x tax charges
+7.1 -> Tax = DP(CGST with amt. + SGST with amt. ): 17.50
+
+
+
+
+
+
+
+
+
+
+
+product amt = 300 including gst
+shipping = 50
+admin = 60 icluding gst
+
+total amt = 410 
+
+342.86
+
+both consultant commission amt calc = (((vendor product amt + admin commission) - vendor product gst ) * consultant commissiom)/100
+
+
+p_amt = 300
+tax = p_amt - 5%
+
+285.71 + 14.29=300
+342.86+17.14=360
+
+
+
+tax + admin = 20%
+seller_comm = 2%
+
+
+
+
+
+admin proft calc = (customer paid amt - (amt paid to shipping charges + both consultant commission + vendor payable amt + gateway charges + gst paid + amt refund to customer + reserved amt)
+
+
+
+----
+one field dynamic add from common group. depends on item. 
+
+eg: Item Saree. Extra field `With Blouse` - dropdown {yes /no}
+
+---
+
+target/gender is mandator for common group.
+
+---
+
+type/ style 
+some points listed for common group adding -> only select once
+
+--
+
+product redemtion calculation show on invoice with user side calculation.
+
+---
+sms system
+user registration, order purchase
+
+
+----
+system complicated
+
+1. customer paid amount in order data
+
+customer paid amount not matched -> if, one customer purchase 3 product with 2 vendor. Then, our system will generate 2 order id. so that, how I will calculate exact customer paid amount on this order. Because of, customer paid at once, but, order devided by 2 vendors.
+
+2. only Consultant commission amount show as per order. not possible, to show per consultant name wise exact amount. Because, 1 existing product available on the user cart using another consultant, and, new product will purchase from another consultant.
+
+
+
+

@@ -1,0 +1,47 @@
+Done
+1. Product details view
+2. Similar Product view as category wise
+3. Coupon code 
+4. Basic Admin panel
+5. Basic Consultant panel
+6. Basic Vendor Panel
+7. Customers invoice page with pdf generate
+8. Product extra fields (mrp, dp, shipping charges,  gst, bonus amount (%)
+) added in vendor panel & admin panel where as client provided
+9. Withdrawal system added in consultant & admin panel
+10. Withdrawal Condition set in consultant panel
+11. Withdrawal condition changes from admin panel
+12. Password changesa system vendor, consultant, admin
+13. Product adding
+
+
+Upcoming
+14. Hold -> vendor payout product wise data
+15. Hold -> banking payment report with bedit/credit card charges 
+
+Done - 16. customer signup bonus 5k (dynamic), per product get dp as per admin set (point no - 8)
+
+17. product approving/ uploading -> vendor -> admin
+
+18. vendor wise delivery charges changes with pincode & >=500 (it will dynamic) is free, other wise charges applicable
+
+19. vendor/ product wise invoice generate
+20. vednor data show in order details
+
+done - 21. referral system single vendor -> multiple products
+
+22. customer feedback -> find avg -> using group by vendor id from product
+
+23. vendors & consultant -> all report single line listing wise show
+
+24. Report -> data shorting -> date, vendor, consultant filter order data with status
+
+
+Working Days
+25. Point 16,17 & 21 will be done within 2 days
+26. Point 19 & 20 will be done within 2 days
+27. Point 22 also will done from point 25 or 26
+28. Point 23 & 24 will be done within 1-2 days
+29. Point 18 will be done within 1 days max 2 day
+
+Total days: 7 days

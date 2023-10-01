@@ -1,0 +1,24 @@
+#### admin  - Default Charges
+
+#### consultant
+
+dashboard => done
+
+referral orders -> order data (referral-order-data.php), payment/ income history (my-income-data.php)
+
+kyc -> bank details, edit, add :: (bank-details.php) => done
+
+withdrawal -> withdrawal request (new-withdrawal-request.php), withdrawal history (my-withdrawal-data.php) => done
+
+referral products -> used products (referral-products.php), all products category wise/ admin allotment wise (all-products-consultant.php)
+
+my commission changes data
+
+logout -done
+
+password changes
+
+profile view
+
+ticket -> create, view
+

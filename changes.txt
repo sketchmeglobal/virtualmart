@@ -1,0 +1,34 @@
+17 jan, 2023
+Product wise consultant comm..
+
+only admin add this. Vendor hidden
+
+// done // Min withdrawal balance required from admin 
+
+.vednor data show in order details
+
+.date, vendor, consultant filter order data with status
+
+.vendor payout product wise data
+
+// vendor order wise data show
+
+.vendor wise invoice generate
+
+.referral system per product & single seller -> multiple products
+
+.banking payment report with card charges 
+
+.vendor wise delivery charges changes with pincode & >=500 (it will dynamic) is free, other wise charges applicable
+
+..customers review system
+
+// done // product adding -> mrp, dp, shipping charges,  gst, bonus amount (%)
+
+.product approving/ uploading -> vendor -> admin
+
+.customer signup bonus 5k, per product get dp as per admin set
+
+customer feedback -> find avg -> using group by vendor id from product
+
+vendors & consultant -> all report single line listing wise show
